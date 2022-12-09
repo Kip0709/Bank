@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(150, 150, 230);
+    width: 100%;
+    height: 100%;
+}
+header{
+    border-bottom: 2px solid rgb(53, 162, 230);
+    padding: 1%;        
+    height: 60px; width: 100%;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+#und{
+    float: left;
+    height: 30px; width: 30px;
+    background-color: blue;
+}
+#logo{
+    margin-left: 250px;
+    font-size: 2em;
+    color: rgb(70, 110, 67);
+    font-family:cursive;
+}
+#exit{
+    float: right;
+    height: 30px; width: 30px;
+    background-color: blue;
+}
+#submit{
+    float: right;
+    margin-top: 17px;
+}
+label{
+    font-size: 1.3em;
+    color: rgb(70, 110, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label[for = name]{
+    margin-left: 65px;
+}
+label[for = password]{
+    margin-left: 34px;
+}
+#contact{
+    position: absolute;
+    float: left;
+    height: 140px; width: 320px;
+  left: calc(50% - 160px);
+    top: calc(50% - 100px);
+}
+
+#name, #password, #RePassword{
+    margin-top: 15px;
+}
+#name{
+    margin-left: 40px;
+}
+#password{
+    margin-left: 40px; 
+}
+#RePassword{
+    margin-left: 6px; 
+}
+footer{
+    border-bottom: 2px solid rgb(53, 162, 230);
+    padding: 1%;        
+    height: 60px; width: 100%;
+    background-color: aqua;;
+    box-sizing: border-box; 
+    color: rgb(110, 110, 110);
+    position: absolute;
+    top: calc(100% - 60px);
+} 
+#problema_name, #problema_password, #problema_RePassword, #Problema{
+    display: none;
+    color: rgb(209, 14, 14);
+    border: 5px solid rgb(238, 4, 4);
+    background-color: rgb(147, 138, 138);
+    padding: 4px;
+    margin-left: 330px; 
+}
+#problema_name{
+    width: 265px; height: 20px; 
+    margin-top: -97px;
+}
+#problema_password{
+    width: 265px; height: 20px;
+    margin-top: -65px;
+}
+#problema_RePassword{
+    width: 265px; height: 20px;
+    margin-top: -30px;
+}
+#Problema{
+    width: 265px; height: 60px;
+    margin-top: -80px;
+}
+.fon{
+    color: rgb(94, 81, 4);
+}

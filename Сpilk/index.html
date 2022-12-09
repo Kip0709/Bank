@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1"></h1>
+    <a id="res" href="osoba.html">Реєстрація </a>
+    <script>
+        var name;
+        var h1 = document.getElementById('h1');
+        function Get_Set (name){
+            this.name = name;
+            h1.innerHTML = name;
+        }
+        
+    </script>
+    <style>
+      #res{
+            padding: 4px;
+            border-radius: 6px;
+            background-color: blue;
+        text-decoration: none;
+        transition: all.6s ease;
+        color: rgb(78, 15, 15);
+        }
+        #res:hover {
+            padding: 6px;
+            transition: all.6s ease;
+            color: rgb(174, 57, 14);
+            background-color: rgb(0, 149, 255);
+        }
+    </style>
+</body>
+</html>

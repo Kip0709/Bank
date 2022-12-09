@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+    <script src="index.html" type="text/javascript"></script>
+    <title>Osoba</title>
+</head>
+<body>
+    <header><input type="button" value="Hom" id="und" onclick="Und()"><span id="logo">Spilk</span><input type="button" onclick="exit()" id="exit" value="Log"></header>
+    <form  method="post" name="test" id="contact">
+        <label for="name">Ім'я: </label><input type="text" id="name" name="name" placeholder="Ім'я">
+    <br>
+    <label for="password">Пароль: </label><input type="password" id="password" name="password" placeholder="пароль">
+    <br>
+    <label for="RePassword" id="TextPassword">Ще раз пароль: </label><input type="password" id="RePassword" name="RePassword" placeholder="Ще раз пароль">
+    <br>
+    <input type="button" onclick="valid()" id="submit" name="submit" value="Готово">
+    <div id="problema_name"></div>
+    <div id="Problema"></div>
+    <div id="problema_password"></div>
+    <div id="problema_RePassword"></div>
+    </form>
+    <footer><span class="tin">Всі прова захищені! &copy; 2022</span></footer>
+</body>
+</html>
